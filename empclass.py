@@ -17,9 +17,9 @@ class Employee :
 employees=[]
 for i in range(3):
     name=input("Enter the name:")
-    age=int(input("Enter your age:"))
-    salary=float(input("Enter your salary:"))
-    desg=input("Enter your Designation:")
+    age=int(input("Enter the age:"))
+    salary=float(input("Enter the salary:"))
+    desg=input("Enter the Designation:")
     empobj=Employee(name,age,desg,salary)
     employees.append(empobj)
 
